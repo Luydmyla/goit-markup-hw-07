@@ -1,0 +1,18 @@
+/* футер */
+.footer {
+  background-color: var(--footer-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+/* логотип ф футере */
+.logo-footer {
+  color: var(--second-text-color);
+
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-start;
+}

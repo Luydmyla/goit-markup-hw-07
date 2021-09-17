@@ -12,14 +12,12 @@
   padding-bottom: 25px;
   transition: color var(--transition-duration) var(--transition-timing-function);
   margin-right: 93px;
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
-.logo:hover,
-.logo:focus {
-  color: var(--accent-color);
-}
 .logo-web {
   color: #2196f3;
 }
-/* .logo .link { */
-/* } */

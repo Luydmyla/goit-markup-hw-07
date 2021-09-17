@@ -1,0 +1,22 @@
+/* адресс ссылка  */
+
+.footer-address {
+  display: block;
+  width: 231px;
+  height: 132px;
+  margin-right: 70px;
+}
+address {
+  font-style: normal;
+  margin-top: 20px;
+}
+.address-link {
+  display: block;
+  color: var(--second-background-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
