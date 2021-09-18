@@ -39,7 +39,7 @@
 // }
 
 .project-title {
-  @include font($fs: 18px, $fh: 2);
+  @include font($fs: 18px, $lh: 2);
   // font-weight: 700;
   // font-size: 18px;
   // line-height: 2;
@@ -73,7 +73,7 @@
 }
 
 .project-text {
-  @include font($fw: 400, $fs: 18px, $fh: 1.56, $ls: 0.03em);
+  @include font($fw: 400, $fs: 18px, $lh: 1.56, $ls: 0.03em);
   // font-weight: 400;
   // font-size: 18px;
   // line-height: 1.56;

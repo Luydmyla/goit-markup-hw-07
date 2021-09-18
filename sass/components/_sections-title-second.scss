@@ -1,6 +1,6 @@
 /* заголовки второго уровня */
 .sections-title-second {
-  @include font($fs: 36px, $fh: 1.16, $ls: 0.03em);
+  @include font($fs: 36px, $lh: 1.16, $ls: 0.03em);
   // font-weight: 700;
   // font-size: 36px;
   // line-height: 1.16;

@@ -84,7 +84,7 @@
 
 .modal-form-text {
   display: block;
-  @include font($fs: 20px, $fh: 1.15, $ls: 0.03em);
+  @include font($fs: 20px, $lh: 1.15, $ls: 0.03em);
   // font-weight: 700;
   // font-size: 20px;
   // line-height: 1.15;
@@ -101,7 +101,7 @@
 }
 .modal-form-lable {
   display: block;
-  @include font($fw: 400, $fs: 12px, $fh: 1.15, $ls: 0.01em);
+  @include font($fw: 400, $fs: 12px, $lh: 1.15, $ls: 0.01em);
   // font-weight: 400;
   // font-size: 12px;
   // line-height: 1.16;
@@ -127,7 +127,7 @@
     var(--transition-timing-function);
 
   &::placeholder {
-    @include font($fw: 400, $fs: 12px, $fh: 1.16, $ls: 0.01em);
+    @include font($fw: 400, $fs: 12px, $lh: 1.16, $ls: 0.01em);
     // font-weight: 400;
     // font-size: 12px;
     // line-height: 1.16;
@@ -197,7 +197,7 @@
   /* margin-bottom: 30px; */
 
   &::placeholder {
-    @include font($fw: 400, $fs: 12px, $fh: 1.16, $ls: 0.01em);
+    @include font($fw: 400, $fs: 12px, $lh: 1.16, $ls: 0.01em);
     // font-weight: 400;
     // font-size: 12px;
     // line-height: 1.16;
@@ -301,10 +301,10 @@
   color: var(--accent-color);
   text-decoration-line: underline;
 }
-.button-send {
-  width: 200px;
-  height: 50px;
-  padding: 10px 56px;
+// .button-send {
+//   width: 200px;
+//   height: 50px;
+//   padding: 10px 56px;
 
-  box-sizing: border-box;
-}
+//   box-sizing: border-box;
+// }

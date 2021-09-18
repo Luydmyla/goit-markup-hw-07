@@ -12,7 +12,7 @@
   padding-bottom: 30px;
 }
 .sections-title-team {
-  @include font($fw: 500, $fh: 1.18, $ls: 0.03em);
+  @include font($fw: 500, $lh: 1.18, $ls: 0.03em);
   // font-weight: 500;
   // font-size: 16px;
   // line-height: 1.18;
@@ -36,7 +36,7 @@
 
 .team-footer {
   p {
-    @include font($fw: 400, $fs: 16px, $fh: 1.18, $ls: 0.03em);
+    @include font($fw: 400, $fs: 16px, $lh: 1.18, $ls: 0.03em);
     // font-weight: 400;
     // font-size: 16px;
     // line-height: 1.18;

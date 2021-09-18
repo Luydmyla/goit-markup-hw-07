@@ -3,7 +3,7 @@
   display: inline-block;
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  @include font($fs: 26px, $fh: 1.19, $ls: 0.03em);
+  @include font($fs: 26px, $lh: 1.19, $ls: 0.03em);
 
   // font-weight: 700;
   // font-size: 26px;
@@ -20,6 +20,6 @@
   }
 }
 
-.logo-web {
+.logo__web {
   color: #2196f3;
 }

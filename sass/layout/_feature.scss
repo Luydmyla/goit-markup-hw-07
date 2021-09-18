@@ -2,7 +2,7 @@
 .feature-list {
   display: flex;
 }
-.feature-item {
+.feature-list__item {
   width: 270px;
   margin-right: 30px;
 
@@ -42,7 +42,7 @@
 } */
 
 /*  ------ИКОНКИ ПЕРЕД СЕКЦИЕЙ ПРЕИМУЖЕСТВА ЧЕРЕЗ ИНЛАЙН СВГ----- */
-.feature-item-icon {
+.feature-list__icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,18 +52,18 @@
   margin-bottom: 30px;
 }
 
-.icon-feature {
-  display: block;
-  /* width: 270px;
-  height: 120px;
-  background-color: var(--second-background-color);
-  margin-bottom: 30px;
-  padding: 25px 100px; */
-}
+// .icon-feature {
+//   display: block;
+//   /* width: 270px;
+//   height: 120px;
+//   background-color: var(--second-background-color);
+//   margin-bottom: 30px;
+//   padding: 25px 100px; */
+// }
 
 /* заголовки в  секции особенности */
-.sections-title-feature {
-  @include font($fs: 14px, $fh: 1.17, $ls: 0.03em);
+.feature-list__text {
+  @include font($fs: 14px, $lh: 1.17, $ls: 0.03em);
   // font-weight: 700;
   // font-size: 14px;
   // line-height: 1.17;
@@ -71,7 +71,7 @@
   text-transform: uppercase;
   color: var(--title-text-color);
 }
-.feature-item {
+.feature-list__item {
   p {
     margin-top: 10px;
   }
