@@ -27,12 +27,12 @@
 }
 .work-text {
   align-items: center;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  @include font($fs: 14px, $fh: 1.14, $ls: 0.03em);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 16px;
+  // letter-spacing: 0.03em;
   text-align: center;
-  letter-spacing: 0.03em;
-
   text-transform: uppercase;
 
   color: var(--second-text-color);

@@ -19,7 +19,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -105,11 +105,11 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
+  letter-spacing: 0.06em;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--second-text-color);
   cursor: pointer;
@@ -129,8 +129,8 @@ img {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
   margin-bottom: 50px;
 }
@@ -218,6 +218,10 @@ img {
   display: flex;
 }
 
+.site-navig .link.current {
+  color: var(--accent-color);
+}
+
 .site-item {
   position: relative;
 }
@@ -241,11 +245,11 @@ img {
 }
 
 .site-item .link {
-  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: block;
   color: var(--title-text-color);
   transition: color var(--transition-duration) var(--transition-timing-function);
   cursor: pointer;
@@ -299,10 +303,6 @@ img {
   color: var(--accent-color);
 }
 
-.site-navig .link.current {
-  color: var(--accent-color);
-}
-
 /* ------------HERO-------------- */
 .hero {
   background-color: #2f303a;
@@ -325,8 +325,8 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
   text-transform: uppercase;
   margin-bottom: 30px;
   min-width: 696px;
@@ -411,8 +411,8 @@ img {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 12px;
   color: var(--title-text-color);
 }
@@ -428,7 +428,7 @@ img {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.15;
   letter-spacing: 0.01em;
   margin-bottom: 4px;
   color: var(--primary-text-color);
@@ -695,9 +695,9 @@ img {
   align-items: center;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
-  text-align: center;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--second-text-color);
 }
@@ -721,8 +721,8 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
   margin-bottom: 10px;
 }
@@ -741,10 +741,11 @@ img {
 }
 
 .team-footer p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 16px;
 }
 
@@ -859,7 +860,7 @@ address {
 .sections-footer-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--second-text-color);
@@ -956,8 +957,8 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-text-color);
   background-color: var(--second-background-color);
   cursor: pointer;
@@ -1021,12 +1022,6 @@ address {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.project-link:hover .project-actions,
-.project-link:focus .project-actions {
-  transform: translateY(0%);
-  opacity: 1;
-}
-
 .project-title {
   font-weight: 700;
   font-size: 18px;
@@ -1072,6 +1067,7 @@ address {
 }
 
 .project-footer p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;

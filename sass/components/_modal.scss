@@ -84,13 +84,13 @@
 
 .modal-form-text {
   display: block;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font($fs: 20px, $fh: 1.15, $ls: 0.03em);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
   text-align: center;
-  letter-spacing: 0.03em;
   margin-bottom: 12px;
-
   color: var(--title-text-color);
 }
 .modal-form-field {
@@ -101,10 +101,11 @@
 }
 .modal-form-lable {
   display: block;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
+  @include font($fw: 400, $fs: 12px, $fh: 1.15, $ls: 0.01em);
+  // font-weight: 400;
+  // font-size: 12px;
+  // line-height: 1.16;
+  // letter-spacing: 0.01em;
   margin-bottom: 4px;
   color: var(--primary-text-color);
 }
@@ -126,10 +127,11 @@
     var(--transition-timing-function);
 
   &::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+    @include font($fw: 400, $fs: 12px, $fh: 1.16, $ls: 0.01em);
+    // font-weight: 400;
+    // font-size: 12px;
+    // line-height: 1.16;
+    // letter-spacing: 0.01em;
 
     color: var(--placeholder-text);
     transition: color var(--transition-duration)
@@ -195,10 +197,12 @@
   /* margin-bottom: 30px; */
 
   &::placeholder {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
+    @include font($fw: 400, $fs: 12px, $fh: 1.16, $ls: 0.01em);
+    // font-weight: 400;
+    // font-size: 12px;
+    // line-height: 1.16;
+    // letter-spacing: 0.01em;
+
     color: var(--placeholder-text);
     transition: color var(--transition-duration)
         var(--transition-timing-function),

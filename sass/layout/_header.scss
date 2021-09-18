@@ -16,6 +16,11 @@
 /* site-navig */
 .site-navig {
   display: flex;
+  .link {
+    &.current {
+      color: var(--accent-color);
+    }
+  }
 }
 .site-item {
   position: relative;
@@ -35,24 +40,29 @@
     display: flex;
     justify-content: center;
   }
-}
-.site-item .link {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-  transition: color var(--transition-duration) var(--transition-timing-function);
-  cursor: pointer;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+  .link {
+    @include font($fw: 500, $fs: 14px, $fh: 1.14, $ls: 0.02em);
+
+    // font-weight: 500;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.02em;
+    display: block;
+    color: var(--title-text-color);
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+    cursor: pointer;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
 }
+
 // .site-item .link:hover,
 // .site-item .link:focus {
 //   color: var(--accent-color);
@@ -93,30 +103,29 @@
 .auth-navig {
   display: flex;
   margin-left: auto;
-}
-.auth-navig .link {
-  display: block;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  cursor: pointer;
-  /* margin-top: 32px; */
-  /* margin-bottom: 32px; */
-  margin-left: auto;
-  transition: color var(--transition-duration) var(--transition-timing-function);
+  .link {
+    display: block;
 
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+    @include font($fw: 500, $fs: 14px, $fh: 1.14, $ls: 0.02em);
+    // font-weight: 500;
+    // font-size: 14px;
+    // line-height: 1.14;
+    // letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    cursor: pointer;
+    /* margin-top: 32px; */
+    /* margin-bottom: 32px; */
+    margin-left: auto;
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
 }
-
 // .auth-navig .link:hover,
 // .auth-navig .link:focus {
 //   color: var(--accent-color);
 // }
-.site-navig .link.current {
-  color: var(--accent-color);
-}
