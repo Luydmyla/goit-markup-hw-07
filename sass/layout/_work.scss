@@ -5,7 +5,7 @@
 .work-list {
   display: flex;
 }
-.work-item {
+.work-list__item {
   position: relative;
   width: 370px;
   margin-right: 30px;
@@ -14,7 +14,7 @@
   }
 }
 
-.image-item {
+.work-list__image {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -25,7 +25,7 @@
   align-items: center;
   background: rgba(47, 48, 58, 0.8);
 }
-.work-text {
+.work-list__text {
   align-items: center;
   @include font($fs: 14px, $lh: 1.14, $ls: 0.03em);
   // font-weight: 700;

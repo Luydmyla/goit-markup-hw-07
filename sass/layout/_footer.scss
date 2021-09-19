@@ -16,3 +16,21 @@
   display: flex;
   align-items: flex-start;
 }
+/* -----СОЦ ССЫЛКИ В ФУТЕРЕ */
+.footer-socials {
+  display: block;
+  width: 206px;
+  height: 80px;
+  margin-top: 12px;
+  margin-right: 93px;
+}
+.sections-footer-title {
+  @include font($fs: 14px, $lh: 1.14, $ls: 0.03em);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+  margin-bottom: 20px;
+}

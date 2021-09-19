@@ -20,11 +20,11 @@
   align-items: center;
   width: auto;
 }
-.subscription-email {
+.subscription-form__fild {
   display: flex;
   align-items: center;
 }
-.form-email {
+.subscription-form__input {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -55,8 +55,8 @@
     }
   }
 
-  .subscription-email:hover &,
-  .subscription-email:focus & {
+  .subscription-form__fild:hover &,
+  .subscription-form__fild:focus & {
     border-color: var(--accent-color);
   }
 }
@@ -78,7 +78,7 @@
 //   color: var(--accent-color);
 // }
 
-.icon-send {
+.subscription-form__icon {
   margin-left: 10px;
   background-color: transparent;
   fill: var(--background-color);
